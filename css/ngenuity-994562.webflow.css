@@ -1,0 +1,551 @@
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-UltraItalic.woff2') format("woff2"), url('../fonts/RBNo31-BookItalic.woff2') format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31 Ultra";
+  src: url('../fonts/RBNo31-Ultra.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31 31";
+  src: url('../fonts/RBNo31-MediumItalicRBNo31-Mediumvfb.woff2') format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-LightItalic.woff2') format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-ThinItalic.woff2') format("woff2");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31 Book";
+  src: url('../fonts/RBNo31-Book.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-Light.woff2') format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-BlackItalic.woff2') format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-ExtraboldItalic.woff2') format("woff2"), url('../fonts/RBNo31-BoldItalic.woff2') format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-ExtraLightItalic.woff2') format("woff2");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-Extrabold.woff2') format("woff2"), url('../fonts/RBNo31-Bold.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-ExtraLight.woff2') format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-Medium.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-Thin.woff2') format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rbno 31";
+  src: url('../fonts/RBNo31-Black.woff2') format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../fonts/proxima_nova_light.woff') format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../fonts/proxima_nova_bold.woff') format("woff"), url('../fonts/proxima_nova_extrabold.woff') format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../fonts/proxima_nova_semibold.woff') format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../fonts/proxima_nova_thin_italic.woff') format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../fonts/proxima_nova_thin.woff') format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../fonts/proxima_nova_black.woff') format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('../fonts/proxima_nova_regular.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --_fonts---rbno1: "Rbno 31", Impact, sans-serif;
+  --_colors---white: white;
+  --_colors---black: #000;
+  --_fonts---rbno: "Rbno 31 Book", Impact, sans-serif;
+  --_fonts---proxima: "Proxima Nova", Arial, sans-serif;
+  --_colors---hyperxred: #c8202f;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.ngenuity-hero {
+  min-height: auto;
+  position: relative;
+}
+
+.ngenuitywrap {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  overflow: auto;
+}
+
+.imagecover {
+  aspect-ratio: auto;
+  object-fit: cover;
+  flex: 1;
+  align-self: center;
+  height: 100%;
+  position: relative;
+}
+
+.ngenuitytitle {
+  object-fit: cover;
+  flex-flow: column;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.ngenuitywhitetitle {
+  z-index: 999;
+  font-family: var(--_fonts---rbno1);
+  color: var(--_colors---white);
+  justify-content: center;
+  align-items: center;
+  max-width: 27rem;
+  height: auto;
+  margin: 0 auto;
+  font-size: 800%;
+  line-height: 90%;
+  display: block;
+  position: absolute;
+  inset: 0% 5% 0% auto;
+}
+
+.sayhello {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.herocopyblock {
+  z-index: 999;
+  font-family: var(--_fonts---rbno1);
+  color: var(--_colors---white);
+  object-fit: cover;
+  flex: 1;
+  align-self: center;
+  font-size: 600%;
+  position: absolute;
+  inset: 0% 2% 0% auto;
+}
+
+.heading {
+  font-family: var(--_fonts---rbno);
+}
+
+.heading-2 {
+  font-family: var(--_fonts---rbno1);
+  font-size: 90%;
+  line-height: 100%;
+}
+
+.herosubhead {
+  margin-bottom: 21px;
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.whitebody {
+  font-family: var(--_fonts---proxima);
+  max-width: 27rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.downloadwrapper {
+  background-color: var(--_colors---black);
+  font-family: var(--_fonts---rbno1);
+  color: var(--_colors---white);
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  grid-template-rows: auto;
+}
+
+.div-block-2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headingcentered {
+  font-family: var(--_fonts---rbno);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
+  line-height: 2.1rem;
+}
+
+.donwloadwrap {
+  padding: 32px;
+}
+
+.hellobutton {
+  background-color: var(--_colors---hyperxred);
+  padding: 20px 64px;
+}
+
+@media screen and (max-width: 991px) {
+  .ngenuitywhitetitle {
+    font-size: 400%;
+  }
+
+  .herocopyblock {
+    max-width: 21rem;
+  }
+
+  .heading-2 {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ngenuitywrap {
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: block;
+  }
+
+  .ngenuitywhitetitle {
+    max-width: 15rem;
+  }
+
+  .herocopyblock {
+    background-color: var(--_colors---black);
+    color: var(--_colors---black);
+    width: 100%;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    position: relative;
+    right: auto;
+  }
+
+  .heading-2 {
+    color: var(--_colors---white);
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .herosubhead, .whitebody {
+    color: var(--_colors---white);
+  }
+
+  .div-block {
+    color: var(--_colors---black);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .headingcentered {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+#downloadnew.w-node-_7ab2e58b-b262-02a7-1172-7f110fac0b53-9dc38769, #downloadnew.w-node-e86d3204-24d5-ffbe-a8d6-6187784d0911-9dc38769 {
+  justify-self: center;
+}
+
+
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-UltraItalic.woff2') format('woff2'), url('../fonts/RBNo31-BookItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31 Ultra';
+  src: url('../fonts/RBNo31-Ultra.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31 31';
+  src: url('../fonts/RBNo31-MediumItalicRBNo31-Mediumvfb.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-ThinItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31 Book';
+  src: url('../fonts/RBNo31-Book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-ExtraboldItalic.woff2') format('woff2'), url('../fonts/RBNo31-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-Extrabold.woff2') format('woff2'), url('../fonts/RBNo31-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Rbno 31';
+  src: url('../fonts/RBNo31-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_bold.woff') format('woff'), url('../fonts/proxima_nova_extrabold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_thin_italic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova_regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
