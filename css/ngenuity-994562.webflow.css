@@ -357,11 +357,15 @@
   .herocopyblock {
     background-color: var(--_colors---black);
     color: var(--_colors---black);
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: none;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2%;
+    padding-left: 0%;
+    display: flex;
     position: relative;
     right: auto;
   }
@@ -372,8 +376,13 @@
     padding-top: 20px;
   }
 
-  .herosubhead, .whitebody {
+  .herosubhead {
     color: var(--_colors---white);
+  }
+
+  .whitebody {
+    color: var(--_colors---white);
+    padding-bottom: 60px;
   }
 
   .div-block {
@@ -387,6 +396,13 @@
   .headingcentered {
     padding-top: 16px;
     padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .herocopyblock {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
