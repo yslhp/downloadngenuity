@@ -277,7 +277,7 @@
   font-family: var(--_fonts---rbno1);
   font-size: 90%;
   line-height: 100%;
-  color: white !important
+  color: #fff !important;
 }
 
 .herosubhead {
@@ -322,6 +322,7 @@
   padding-bottom: 32px;
   font-size: 2rem;
   line-height: 2.1rem;
+  color: #fff !important;
 }
 
 .donwloadwrap {
