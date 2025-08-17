@@ -277,6 +277,7 @@
   font-family: var(--_fonts---rbno1);
   font-size: 90%;
   line-height: 100%;
+  color: #fff;
 }
 
 .herosubhead {
@@ -321,6 +322,7 @@
   padding: 32px 2%;
   font-size: 2rem;
   line-height: 2.1rem;
+  color: #fff;
 }
 
 .headingcentered.left {
