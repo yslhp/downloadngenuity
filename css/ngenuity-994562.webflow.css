@@ -277,7 +277,6 @@
   font-family: var(--_fonts---rbno1);
   font-size: 90%;
   line-height: 100%;
-  color: #fff;
 }
 
 .herosubhead {
@@ -304,7 +303,7 @@
 
 .grid {
   grid-template-rows: auto;
-  max-width: 2500px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -322,15 +321,13 @@
   padding: 32px 2%;
   font-size: 2rem;
   line-height: 2.1rem;
-  color: #fff;
 }
 
 .headingcentered.left {
   text-align: left;
   max-width: 55rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 0%;
+  margin-bottom: 17px;
+  padding: 0 0%;
 }
 
 .donwloadwrap {
@@ -352,6 +349,10 @@
   font-family: var(--_fonts---rbno);
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 80svh;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 62px;
   padding-bottom: 62px;
   display: flex;
@@ -359,6 +360,9 @@
 
 .center {
   text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 2rem;
   line-height: 2.1rem;
 }
@@ -392,21 +396,27 @@
 }
 
 .doubleblocks {
-  max-width: 1900px;
-  margin-top: 58px;
+  max-width: none;
+  margin-top: 3rem;
 }
 
 .grid-2 {
   grid-template-rows: auto;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .imagewrapper {
-  max-width: 30rem;
+  max-width: none;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 0% 0 2%;
+  padding: 0 2%;
+  position: relative;
+}
+
+.image {
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {
@@ -415,11 +425,15 @@
   }
 
   .herocopyblock {
-    max-width: 21rem;
+    max-width: 40%;
   }
 
   .heading-2 {
     font-size: 60%;
+  }
+
+  .harness {
+    height: auto;
   }
 
   .centeredwhitecopy {
