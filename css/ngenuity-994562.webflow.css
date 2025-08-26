@@ -275,6 +275,7 @@
 
 .heading-2 {
   font-family: var(--_fonts---rbno1);
+  text-transform: uppercase;
   font-size: 90%;
   line-height: 100%;
 }
@@ -311,16 +312,18 @@
 .div-block-2 {
   margin-left: auto;
   margin-right: auto;
+  font-size: 130%;
 }
 
 .headingcentered {
   font-family: var(--_fonts---rbno);
   color: var(--_colors---white);
   text-align: center;
+  text-transform: uppercase;
   margin: 0 auto;
   padding: 32px 2%;
-  font-size: 2rem;
-  line-height: 2.1rem;
+  font-size: 130%;
+  line-height: 131%;
 }
 
 .headingcentered.left {
@@ -328,10 +331,13 @@
   max-width: 55rem;
   margin-bottom: 17px;
   padding: 0 0%;
+  font-size: 100%;
+  line-height: 131%;
 }
 
 .donwloadwrap {
   padding: 32px;
+  font-size: 120%;
 }
 
 .hellobutton {
@@ -375,6 +381,7 @@
 .textparagraph {
   margin-left: auto;
   margin-right: auto;
+  font-size: 130%;
 }
 
 .centeredwhitecopy {
@@ -385,7 +392,7 @@
   margin-right: auto;
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 55%;
+  font-size: 60%;
   line-height: 130%;
 }
 
@@ -393,6 +400,7 @@
   text-align: left;
   max-width: 55rem;
   padding-left: 0%;
+  padding-right: 0%;
 }
 
 .doubleblocks {
@@ -419,6 +427,61 @@
   position: relative;
 }
 
+.faqswraps {
+  max-width: none;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bold-text {
+  line-height: 121%;
+}
+
+.faqwrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqgroup {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.text-block {
+  color: var(--_colors---white);
+  text-align: left;
+  font-size: 50%;
+}
+
+.answercopy {
+  font-family: var(--_fonts---proxima);
+  color: var(--_colors---white);
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 70%;
+  line-height: 130%;
+}
+
+.answercopy.left {
+  text-align: left;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+  font-size: 50%;
+}
+
 @media screen and (max-width: 991px) {
   .ngenuitywhitetitle {
     font-size: 400%;
@@ -429,7 +492,16 @@
   }
 
   .heading-2 {
+    text-transform: uppercase;
     font-size: 60%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .headingcentered {
+    font-size: 100%;
   }
 
   .harness {
@@ -439,11 +511,17 @@
   .centeredwhitecopy {
     padding-left: 5%;
     padding-right: 5%;
+    font-size: 50%;
   }
 
   .imagewrapper {
     padding-left: 2%;
     padding-right: 2%;
+  }
+
+  .answercopy {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -518,6 +596,10 @@
 
   .grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .answercopy.left {
+    text-align: center;
   }
 }
 
